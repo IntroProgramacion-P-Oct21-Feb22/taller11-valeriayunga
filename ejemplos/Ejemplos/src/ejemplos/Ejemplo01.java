@@ -36,6 +36,9 @@ public class Ejemplo01 {
     public static String obtenerNombre(){
         return "Luis";
     }
+    public static String obtenerCiudadMayuscula(String a) {
+        return a.toUpperCase();
+    }
     
     
 }
