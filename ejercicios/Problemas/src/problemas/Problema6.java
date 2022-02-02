@@ -48,6 +48,6 @@ public class Problema6 {
         varianza = varianza / 9f;
         desviacion = Math.sqrt(varianza);
         return desviacion;
-        
+
     }
 }

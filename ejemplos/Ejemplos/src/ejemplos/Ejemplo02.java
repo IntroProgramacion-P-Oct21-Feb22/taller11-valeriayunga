@@ -17,20 +17,17 @@ public class Ejemplo02 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+    int[]datos=new int [2+2];
+    for (int i= 0; i<4;i++){
+        datos[i]=2+2;
+    }
+        for (int i = 0; i<4;i++){
+            datos[i]=datos[i]-1;
         
     }
-    
-    
-    public int obtenerSuma(int a){
-        int b;
-        b = a;
-        return b;
-    }
-    
-    public double obtenerMultiplicacion(int b){
-        double resultado;
-        resultado = (double)b/10;
-        return resultado;
+          for (int i = 0; i<4;i++){
+              System.out.printf("%s\n",datos[i]);
+          }
     }
     
     

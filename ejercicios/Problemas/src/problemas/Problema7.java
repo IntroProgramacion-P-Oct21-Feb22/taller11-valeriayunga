@@ -41,18 +41,18 @@ public class Problema7 {
 
     public static void imprimirArreglo(String[] arreglo) {
         String mensaje = "";
-      
+
         for (int i = 0; i < arreglo.length; i++) {
 
             String valor = arreglo[i];
             int longitud = valor.length();
 
-            if (longitud == 4||longitud == 5) {
+            if (longitud == 4 || longitud == 5) {
                 mensaje = String.format("%s%s\n",
-                         mensaje, arreglo[i]);
+                        mensaje, arreglo[i]);
             }
         }
-         System.out.printf("La impreción del arreglo con cadenas de "
-                 + "4 o 5 caracteres es: %s",mensaje);
+        System.out.printf("La impreción del arreglo con cadenas de "
+                + "4 o 5 caracteres es:%s\n", mensaje);
     }
 }

@@ -73,7 +73,7 @@ public class Problema2 {
 
         System.out.println("Ingrese la altura del triangulo en cm²");
         altura = entrada.nextDouble();
-        
+
         resultado = (base * altura) / 2;
         System.out.printf("El area del triángulo es:%.2f cm²\n", resultado);
 
@@ -93,7 +93,7 @@ public class Problema2 {
 
         System.out.println("Ingrese la altura del rectángulo en cm²");
         altura = entrada.nextDouble();
-        
+
         resultado = (base * altura);
         System.out.printf("El area del triángulo es:%.2f cm²\n", resultado);
 

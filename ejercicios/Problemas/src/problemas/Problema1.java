@@ -23,7 +23,10 @@ public class Problema1 {
 
         for (int fila = 0; fila < datos.length; fila++) {
             for (int col = 0; col < datos[fila].length; col++) {
-                System.out.println(datos[fila][col]);
+                if (datos[fila][col] % 2 == 0) {
+
+                    System.out.println(datos[fila][col]);
+                }
             }
         }
     }
